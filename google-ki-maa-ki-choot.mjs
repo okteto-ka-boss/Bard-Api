@@ -6,8 +6,8 @@ import fs from 'fs';
 const app = express();
 const port = process.env.PORT || 8080;
 
-const Cookies1 = '';  //put your cookie named __Secure-1PSID
-const Cookies2 = '';  //put your cookie named __Secure-1PSIDTS
+const Cookies1 = 'fgj6IUyU056Klv8xuAXuMMfRkcrHlg4SMsAmldV5Umla3CR_xyuSYXeunogXK048cltUtA.';  //put your cookie named __Secure-1PSID
+const Cookies2 = 'sidts-CjIBPVxjSoXTANDkHUa9Mk6tjWQj2dn-FuQLhjbFlgGTkVtqAkXhrRlhnucnJ7FgwEOxeBAA';  //put your cookie named __Secure-1PSIDTS
 
 let myBard = new Bard({
     "__Secure-1PSID": Cookies1,
